@@ -1,11 +1,11 @@
 import React from 'react';
-import Pokemon from './Pokemon';
+import PokemonItem from './PokemonItem';
 
 const PokemonList = props => {
     return <div className = 'mainWrapper' ><ul className='pokemonList'>
         {props.items.map((item,id) => {
             return <li  className = 'pokemonsList'key = {id}>
-                <Pokemon 
+                <PokemonItem 
                 imageUrl = {item.url} 
                 pokemonTitle ={item.name}
                 types ={item.types}
