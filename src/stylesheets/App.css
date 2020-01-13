@@ -32,11 +32,13 @@
   width:200px;
   
 }
+.pokelistTypeList__item{
+  margin: 10px;
+}
 
 
-/* .pokeList{
-  padding: 5px;
-} */
+
+
 
 .imagePokemon{
   padding: 5px;
