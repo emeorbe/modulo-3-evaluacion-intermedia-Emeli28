@@ -8,12 +8,10 @@ class App extends React.Component {
     super(props);
     this.state = {data}
   }
-
-
   render() {
     return (
       <div className="App">
-        <h1>Mi Lista de Pokemons</h1>
+        <h1 className="main-title">Mi Lista de Pokemons</h1>
         <PokemonList items={this.state.data}/>
       </div>
     );
